@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  list-style:none;
+}
+
+/* header {
+  width: 100%;
+  margin: 0 auto;
+  margin-top:20px;
+  text-align:center;
+} */
+
+main {
+  margin:0;
+  padding:30px 0;
+  text-align:center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  background-image:url('../img/image-world.jpeg');
+  background-size:100% auto;
+  background-size:cover;
+}
+
+.title {
+  padding:10px 0;
+  border:1px solid black;
+  background-color: skyblue;
+}
+
+.result {
+  margin:30px 0;
+  border:2px solid black;
+  height:400px;
+  width:600px;
+  background-size:80%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.switch {
+  display:flex;
+}
+
+.btn {
+  margin:0 15px;
+  border:1px solid black;
+  height:3em;
+  width:7em;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+  box-shadow:2px 7px;
+  font-weight:bold;
+}
+.maker {
+  background-color: deepskyblue;
+  color:black;
+}
+.start {
+  background-color: palegreen;
+}
+.stop {
+  background-color: coral;
+  display:none;
+}
+.stop:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+  left:2px;
+}
+.reset {
+  background-color: yellow;
+}
+
+.btn:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+  left:2px;
+}
+
+.result-slide {
+  padding-top:20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* 結果部分 */
+.country-bg {
+  width:100%;
+  background-size:100%auto;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+}
+.country-result {
+  padding-top:30px;
+  margin-top: 10px;
+  text-align:center;
+  background-size:cover;
+  width:50%;
+  margin: 0 auto;
+}
+.america,.rusia,.morudebu 
+,.igirisu,.burazil {
+  margin:10px 0;
+  padding:20px 0;
+  display:none;
+  border:1px solid black;
+  background-color:palegreen;
+}
+
+/* .rusia {
+  margin-top:10px;
+  padding:20px;
+  display:none;
+  border:1px solid black;
+  background-color:lightgreen;
+} */
+
+.detail h1 {
+  padding:10px 0;
+}
+
+footer {
+  height:65px;
+  text-align:center;
+  line-height:65px;
+  background-color: gray;
+}
+
